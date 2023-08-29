@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    width: 100%;
+    background-color: #f99;
+    /* color: aliceblue; */
+    height: 70px;
+}
+nav a{
+    font-size: 20px;
+    text-decoration: none;
+    color: aliceblue;
+    border-right: 1px white solid;
+    /* background-color: green; */
+    /* border-right-radius: 30px; */
+    border-radius: 30px;
+}
+nav a:hover{
+    color: grey;
+    background-color: white;
+    transition: ease-in-out .9s;
+
+}
+.container{
+    display: flex;
+    justify-content: flex-end;
+    /* padding-right:100px; */
+}
+.container img{
+    /* justify-content: flex-end; */
+    background-color: white;
+    padding: 25px 50px;
+    border-radius: 80px;
+    margin-right: 830px;
+    color: #f99;
+}
+.container a{
+    padding: 25px 50px;
+}
+.container-1{
+    display: flex;
+    justify-content: flex-start;
+    /* padding-right:100px; */
+    border-bottom: 5px #f99 dotted;
+}
+.container-1 img{
+    display: flex;
+    height: 750px;
+    align-content: flex-end;
+    margin: 40px;
+    flex-direction: row-reverse;
+}
+.container-2{
+    display: flex;
+    justify-content: flex-start;
+    /* padding-right:100px; */
+    /* border-bottom: 5px #f99 dotted; */
+    margin: 50px;
+}
+.container-2 img{
+    display: flex;
+    height: 750px;
+    justify-content: center;
+    margin: 30px;
+    /* flex-direction: row; */
+}
+.welcome{
+    display: inline;
+    height: 650px;
+    /* font-size: 60px; */
+    text-align: center;
+    margin-top: 30px;
+    padding: 50px;
+    color: grey;
+    /* background-color: rgb(250, 166, 166); */
+    border-end-end-radius: 30px;
+    border: 5px solid gray;
+}
+.font-80{
+    font-size: 80px;
+}
+.font-60{
+    font-size: 60px;
+}
+.font-40{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.down-8{
+    margin-top: 8%;
+}
+.view{
+    margin: 25%;
+}
+.btn{
+    color: white;
+    text-decoration: none;
+    background-color: #f99 ;
+    padding: 20px;
+    /* border: 1px grey solid; */
+    font-size: 20px;
+    /* height: 70px; */
+    border-radius: 20px;
+}
+.btn:hover{
+    color: #f99;
+    background-color: white;
+    transition: ease-in-out .9s;
+}
